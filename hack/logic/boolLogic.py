@@ -7,3 +7,9 @@ def And(x,y):
     else:
         return False
 
+def Or(x,y):
+    if x==False and y==False:
+        return False
+    else:
+        return True
+

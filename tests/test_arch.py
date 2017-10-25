@@ -11,7 +11,11 @@ def variable():
 def test_hoge():
     y = CPU.cpu()
     print(y)
-    assert y == 0
+    assert y == 10
+
+def test_aa():
+    y = CPU.increment(11)
+    assert y == 12
 
 def test_aaa(variable):
     print(variable)
