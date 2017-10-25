@@ -1,1 +1,3 @@
-{}
+{
+  "tests/test_arch.py::test_hoge": true
+}
